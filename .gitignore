@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# C extensions
+*.c
+*.cpp
+*.h
+*.hpp
+
+# Distribution / packaging
+.eggs/
+dist/
+build/
+develop-eggs/
+EGG-INFO/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+setup.py
+
+# Pip-related files
+*.whl
+*.dist-info/
+*.egg-info/
+.venv/
+
+# Testing
+*.egg-info
+.coverage
+*.pytest_cache
+test.log
+
+# Django
+*.sqlite3
+local_settings.py
+db.sqlite3
+.DS_Store
+
+# Flask
+instance/
+.flaskenv
+
+# SQLAlchemy
+*.db
+*.sqlite
+*.sql
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE specific files
+.idea/
+*.iml
+*.pyproj
+*.suo
+.vscode/
+.DS_Store
