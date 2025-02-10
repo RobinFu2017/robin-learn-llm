@@ -4,7 +4,7 @@ from rich import print
 
 def set_open_ai_key():
     # Set an environment variable
-    os.environ['OPENAI_API_KEY'] = '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'
+    os.environ['OPENAI_API_KEY'] = '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'
 
     # Verify that the environment variable is set
     print(os.getenv('OPENAI_API_KEY')[-30:])
